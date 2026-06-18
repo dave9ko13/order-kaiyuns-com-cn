@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dave9ko13.github.io/order-kaiyuns-com-cn/sitemap.xml

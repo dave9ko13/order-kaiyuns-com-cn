@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>再次遇见 · 开云</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #faf9f7;
+      font-family: 'Georgia', 'Noto Serif SC', '宋体', serif;
+      color: #2a2a2a;
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem 1.5rem;
+    }
+
+    /* 开场短句 —— 如轻声问候 */
+    .hero-whisper {
+      margin-top: 2.4rem;
+      font-size: 1.2rem;
+      letter-spacing: 0.06em;
+      color: #5b5b5b;
+      font-style: italic;
+      border-left: 2px solid #cdc9c2;
+      padding-left: 1.2rem;
+      margin-bottom: 2.8rem;
+    }
+
+    .hero-whisper strong {
+      font-style: normal;
+      font-weight: 400;
+      color: #3f3f3f;
+      letter-spacing: 0.1em;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      line-height: 1.35;
+      color: #1f1f1f;
+      margin-top: 0.2rem;
+      margin-bottom: 1.6rem;
+    }
+
+    h1 .dot-muted {
+      color: #b6aba0;
+    }
+
+    .content {
+      font-size: 1rem;
+    }
+
+    .content p {
+      margin-bottom: 1.6rem;
+      text-align: left;
+      word-break: break-word;
+    }
+
+    .content p.soft-intro {
+      color: #3d3d3d;
+    }
+
+    /* 特点列表 —— 极简卡片化 */
+    .trait-list {
+      margin: 2.6rem 0 2.2rem 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .trait-list li {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      padding: 1.1rem 0 1rem 0;
+      border-bottom: 1px solid #e6e2dc;
+    }
+
+    .trait-list li:last-child {
+      border-bottom: none;
+    }
+
+    .trait-marker {
+      flex-shrink: 0;
+      display: inline-block;
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 50%;
+      background-color: #e2ded8;
+      color: #3d3d3d;
+      font-size: 0.8rem;
+      text-align: center;
+      line-height: 1.7rem;
+      margin-top: 0.25rem;
+      font-weight: 400;
+    }
+
+    .trait-text {
+      flex: 1;
+    }
+
+    .trait-text strong {
+      font-weight: 500;
+      color: #1f1f1f;
+      display: block;
+      margin-bottom: 0.2rem;
+      font-size: 1.05rem;
+    }
+
+    .trait-text span {
+      font-size: 0.95rem;
+      color: #5c5c5c;
+    }
+
+    /* 温和结尾 */
+    .closing-note {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #e0dbd4;
+      font-size: 0.95rem;
+      color: #5b5b5b;
+      line-height: 1.9;
+    }
+
+    .closing-note a {
+      color: #3f3f3f;
+      text-decoration: none;
+      border-bottom: 1px solid #cbc5bd;
+      transition: border-color 0.15s;
+    }
+
+    .closing-note a:hover {
+      border-bottom-color: #8f867b;
+    }
+
+    .closing-note .muted-ornament {
+      display: block;
+      margin-top: 1.8rem;
+      font-size: 0.85rem;
+      color: #a9a29a;
+      letter-spacing: 0.2em;
+    }
+
+    /* 小屏响应 */
+    @media (max-width: 520px) {
+      .page {
+        padding: 2rem 1.2rem 4rem 1.2rem;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      .hero-whisper {
+        font-size: 1rem;
+        padding-left: 0.9rem;
+      }
+
+      .trait-list li {
+        flex-direction: column;
+        gap: 0.3rem;
+      }
+
+      .trait-marker {
+        width: 1.4rem;
+        height: 1.4rem;
+        line-height: 1.5rem;
+        font-size: 0.7rem;
+      }
+    }
+
+    @media (max-width: 380px) {
+      .page {
+        padding: 1.5rem 1rem 3rem 1rem;
+      }
+
+      h1 {
+        font-size: 1.45rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- 开场短句，从“再次”切入 -->
+    <div class="hero-whisper">
+      <strong>再次</strong> 打开同一个站点，像翻开折角的书页。
+    </div>
+
+    <h1>
+      关于 <span class="dot-muted">·</span> 持续注视
+    </h1>
+
+    <div class="content">
+      <p class="soft-intro">
+        一个平台，被记住往往不是因为第一次访问，而是因为第二次、第三次的停留。收藏夹里总有一些地址，你未必每天都会点开，但它们始终在那里，安静而可靠。<a href="https://order-kaiyuns.com.cn" style="color:#3f3f3f; text-decoration: none; border-bottom: 1px solid #cbc5bd;">开云</a>便是这样一种存在——你不需要刻意想起，却会在需要时自然走向它。
+      </p>
+
+      <p>
+        从最初接触到现在，它的界面没有喧嚣的弹窗，没有催促式的引导，只有清晰的入口与克制的信息层级。你可能会先浏览一两个页面，然后关闭，过段时间再回来。每一次回访，都像与一位不多言语的老朋友并肩坐一会儿——彼此熟悉，却不必寒暄。
+      </p>
+
+      <!-- 特点列表：三个特质，用温和的叙述语气 -->
+      <ul class="trait-list">
+        <li>
+          <span class="trait-marker">·</span>
+          <div class="trait-text">
+            <strong>不打扰的结构</strong>
+            <span>没有浮动的推送，没有花哨的动效吸引眼球。页面把选择权交还给访客，你想读什么、点哪里，都由你自己决定。</span>
+          </div>
+        </li>
+        <li>
+          <span class="trait-marker">·</span>
+          <div class="trait-text">
+            <strong>一致的阅读节奏</strong>
+            <span>文字与留白比例稳定，字号行距经过细致考量。即便隔了数周再回来，视觉上的熟悉感仍然在，不需要重新适应。</span>
+          </div>
+        </li>
+        <li>
+          <span class="trait-marker">·</span>
+          <div class="trait-text">
+            <strong>安静的存在感</strong>
+            <span>它不会在你的收藏夹里“刷存在感”，但每次你主动寻来，它都以同样的从容面貌等待。这种稳定本身，就是一种信任。</span>
+          </div>
+        </li>
+      </ul>
+
+      <p>
+        有人偏爱功能繁多的门户，也有人更珍惜那些不急于展示全部、却始终在线且内容扎实的站点。收藏一个链接，有时不只是为了便捷，更是给自己留一条温和的通道——通道那头，是一个你了解并愿意继续了解的地方。
+      </p>
+    </div>
+
+    <!-- 温和结尾，包含书签/收藏隐喻，自然放入链接 -->
+    <div class="closing-note">
+      <p>
+        书签的价值不在于数量，而在于那些你愿意反复打开、并且每次打开都仍旧感到舒适的地址。如果你已经将它收藏，那么你早已明白这种默契；如果你还在犹豫，不妨把<a href="https://order-kaiyuns.com.cn">开云</a>放进来，让时间告诉你，什么是值得持续注视的。
+      </p>
+      <span class="muted-ornament">—— 致所有安静的回访者</span>
+    </div>
+  </div>
+</body>
+</html>
